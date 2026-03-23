@@ -1,0 +1,252 @@
+app_name = "benue_lgsc_hrms"
+app_title = "Benue Lgsc Hrms"
+app_publisher = "auwal"
+app_description = "Benue LGSC Hrms"
+app_email = "engr.auwal@gmail.com"
+app_license = "mit"
+
+# Apps
+# ------------------
+
+# required_apps = []
+
+# Each item in the list will be shown as an app in the apps page
+# add_to_apps_screen = [
+# 	{
+# 		"name": "benue_lgsc_hrms",
+# 		"logo": "/assets/benue_lgsc_hrms/logo.png",
+# 		"title": "Benue Lgsc Hrms",
+# 		"route": "/benue_lgsc_hrms",
+# 		"has_permission": "benue_lgsc_hrms.api.permission.has_app_permission"
+# 	}
+# ]
+
+# Includes in <head>
+# ------------------
+
+# include js, css files in header of desk.html
+# app_include_css = "/assets/benue_lgsc_hrms/css/benue_lgsc_hrms.css"
+# app_include_js = "/assets/benue_lgsc_hrms/js/benue_lgsc_hrms.js"
+
+# include js, css files in header of web template
+# web_include_css = "/assets/benue_lgsc_hrms/css/benue_lgsc_hrms.css"
+# web_include_js = "/assets/benue_lgsc_hrms/js/benue_lgsc_hrms.js"
+
+# include custom scss in every website theme (without file extension ".scss")
+# website_theme_scss = "benue_lgsc_hrms/public/scss/website"
+
+# include js, css files in header of web form
+# webform_include_js = {"doctype": "public/js/doctype.js"}
+# webform_include_css = {"doctype": "public/css/doctype.css"}
+
+# include js in page
+# page_js = {"page" : "public/js/file.js"}
+
+# include js in doctype views
+# doctype_js = {"doctype" : "public/js/doctype.js"}
+# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+# doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
+# doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+
+# Svg Icons
+# ------------------
+# include app icons in desk
+# app_include_icons = "benue_lgsc_hrms/public/icons.svg"
+
+# Home Pages
+# ----------
+
+# application home page (will override Website Settings)
+# home_page = "login"
+
+# website user home page (by Role)
+# role_home_page = {
+# 	"Role": "home_page"
+# }
+
+# Generators
+# ----------
+
+# automatically create page for each record of this doctype
+# website_generators = ["Web Page"]
+
+# automatically load and sync documents of this doctype from downstream apps
+# importable_doctypes = [doctype_1]
+
+# Jinja
+# ----------
+
+# add methods and filters to jinja environment
+# jinja = {
+# 	"methods": "benue_lgsc_hrms.utils.jinja_methods",
+# 	"filters": "benue_lgsc_hrms.utils.jinja_filters"
+# }
+
+# Installation
+# ------------
+
+# before_install = "benue_lgsc_hrms.install.before_install"
+# after_install = "benue_lgsc_hrms.install.after_install"
+
+# Uninstallation
+# ------------
+
+# before_uninstall = "benue_lgsc_hrms.uninstall.before_uninstall"
+# after_uninstall = "benue_lgsc_hrms.uninstall.after_uninstall"
+
+# Integration Setup
+# ------------------
+# To set up dependencies/integrations with other apps
+# Name of the app being installed is passed as an argument
+
+# before_app_install = "benue_lgsc_hrms.utils.before_app_install"
+# after_app_install = "benue_lgsc_hrms.utils.after_app_install"
+
+# Integration Cleanup
+# -------------------
+# To clean up dependencies/integrations with other apps
+# Name of the app being uninstalled is passed as an argument
+
+# before_app_uninstall = "benue_lgsc_hrms.utils.before_app_uninstall"
+# after_app_uninstall = "benue_lgsc_hrms.utils.after_app_uninstall"
+
+# Desk Notifications
+# ------------------
+# See frappe.core.notifications.get_notification_config
+
+# notification_config = "benue_lgsc_hrms.notifications.get_notification_config"
+
+# Permissions
+# -----------
+# Permissions evaluated in scripted ways
+
+# permission_query_conditions = {
+# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+# }
+#
+# has_permission = {
+# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+# }
+
+# Document Events
+# ---------------
+# Hook on document methods and events
+
+# doc_events = {
+# 	"*": {
+# 		"on_update": "method",
+# 		"on_cancel": "method",
+# 		"on_trash": "method"
+# 	}
+# }
+
+# Scheduled Tasks
+# ---------------
+
+# scheduler_events = {
+# 	"all": [
+# 		"benue_lgsc_hrms.tasks.all"
+# 	],
+# 	"daily": [
+# 		"benue_lgsc_hrms.tasks.daily"
+# 	],
+# 	"hourly": [
+# 		"benue_lgsc_hrms.tasks.hourly"
+# 	],
+# 	"weekly": [
+# 		"benue_lgsc_hrms.tasks.weekly"
+# 	],
+# 	"monthly": [
+# 		"benue_lgsc_hrms.tasks.monthly"
+# 	],
+# }
+
+# Testing
+# -------
+
+# before_tests = "benue_lgsc_hrms.install.before_tests"
+
+# Extend DocType Class
+# ------------------------------
+#
+# Specify custom mixins to extend the standard doctype controller.
+# extend_doctype_class = {
+# 	"Task": "benue_lgsc_hrms.custom.task.CustomTaskMixin"
+# }
+
+# Overriding Methods
+# ------------------------------
+#
+# override_whitelisted_methods = {
+# 	"frappe.desk.doctype.event.event.get_events": "benue_lgsc_hrms.event.get_events"
+# }
+#
+# each overriding function accepts a `data` argument;
+# generated from the base implementation of the doctype dashboard,
+# along with any modifications made in other Frappe apps
+# override_doctype_dashboards = {
+# 	"Task": "benue_lgsc_hrms.task.get_dashboard_data"
+# }
+
+# exempt linked doctypes from being automatically cancelled
+#
+# auto_cancel_exempted_doctypes = ["Auto Repeat"]
+
+# Ignore links to specified DocTypes when deleting documents
+# -----------------------------------------------------------
+
+# ignore_links_on_delete = ["Communication", "ToDo"]
+
+# Request Events
+# ----------------
+# before_request = ["benue_lgsc_hrms.utils.before_request"]
+# after_request = ["benue_lgsc_hrms.utils.after_request"]
+
+# Job Events
+# ----------
+# before_job = ["benue_lgsc_hrms.utils.before_job"]
+# after_job = ["benue_lgsc_hrms.utils.after_job"]
+
+# User Data Protection
+# --------------------
+
+# user_data_fields = [
+# 	{
+# 		"doctype": "{doctype_1}",
+# 		"filter_by": "{filter_by}",
+# 		"redact_fields": ["{field_1}", "{field_2}"],
+# 		"partial": 1,
+# 	},
+# 	{
+# 		"doctype": "{doctype_2}",
+# 		"filter_by": "{filter_by}",
+# 		"partial": 1,
+# 	},
+# 	{
+# 		"doctype": "{doctype_3}",
+# 		"strict": False,
+# 	},
+# 	{
+# 		"doctype": "{doctype_4}"
+# 	}
+# ]
+
+# Authentication and authorization
+# --------------------------------
+
+# auth_hooks = [
+# 	"benue_lgsc_hrms.auth.validate"
+# ]
+
+# Automatically update python controller files with type annotations for this app.
+# export_python_type_annotations = True
+
+# default_log_clearing_doctypes = {
+# 	"Logging DocType Name": 30  # days to retain logs
+# }
+
+# Translation
+# ------------
+# List of apps whose translatable strings should be excluded from this app's translations.
+# ignore_translatable_strings_from = []
+
