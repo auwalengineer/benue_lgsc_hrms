@@ -27,6 +27,11 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/benue_lgsc_hrms/css/benue_lgsc_hrms.css"
 # app_include_js = "/assets/benue_lgsc_hrms/js/benue_lgsc_hrms.js"
+app_include_js = [
+    "/assets/benue_lgsc_hrms/js/es6-shim.js",
+    "/assets/benue_lgsc_hrms/js/websdk_client_bundle_min.js",
+    "/assets/benue_lgsc_hrms/js/fingerprint_sdk_min.js",
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/benue_lgsc_hrms/css/benue_lgsc_hrms.css"
