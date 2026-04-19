@@ -137,13 +137,17 @@ app_include_js = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
+doc_events = {
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-# 	}
-# }
+# 	},
+	"Fingerprint": {
+		"before_insert" : "benue_lgsc_hrms.fingerprint.validate_unique_fingerprint",
+		"before_insert" : "benue_lgsc_hrms.fingerprint.validate_unique_fingerprint"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
