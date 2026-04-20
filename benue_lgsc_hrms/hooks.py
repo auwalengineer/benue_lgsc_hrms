@@ -144,7 +144,9 @@ doc_events = {
 # 		"on_trash": "method"
 # 	},
 	"Fingerprint": {
-		"validate" : "benue_lgsc_hrms.fingerprint.validate_fingerprint"
+		"validate" : "benue_lgsc_hrms.fingerprint.validate_fingerprint",
+		"before_save" : "benue_lgsc_hrms.fingerprint.validate_fingerprint",
+
 	}
 }
 
