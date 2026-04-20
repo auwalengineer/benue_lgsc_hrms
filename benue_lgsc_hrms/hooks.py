@@ -145,8 +145,7 @@ doc_events = {
 # 	},
 	"Fingerprint": {
 		"validate" : "benue_lgsc_hrms.fingerprint.validate_fingerprint",
-		"before_save" : "benue_lgsc_hrms.fingerprint.validate_fingerprint",
-
+		"before_save" : "benue_lgsc_hrms.fingerprint.validate_fingerprint"
 	}
 }
 
